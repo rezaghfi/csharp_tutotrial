@@ -8,5 +8,6 @@ public class Test
     {
         Jalase2.one();
         Jalase2.two();
+        Jalase3.jalase3();
     }
 }

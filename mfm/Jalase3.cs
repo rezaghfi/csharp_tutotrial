@@ -6,7 +6,7 @@ namespace csharp_tutorial;
 public class Jalase3
 {
     // method
-    public void jalase3(string[] args)
+    public static void jalase3()
     {
         // call method
         //function();
