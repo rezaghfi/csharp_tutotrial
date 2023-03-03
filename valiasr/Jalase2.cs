@@ -1,6 +1,5 @@
-﻿namespace Valiasr
-{
-    public class Jalase2
+﻿namespace Valiasr;
+public class Jalase2
 {
     public static void jalase2()
     {
@@ -129,5 +128,4 @@
         
         
     }
-}
 }

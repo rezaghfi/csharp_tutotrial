@@ -1,6 +1,5 @@
-﻿namespace mfm{
-
-public class Jalase2{
+﻿namespace MFM;
+    public class Jalase2{
      public static void one() {
         // انواع عملگر ها
         // عملگر های ریاضیاتی
@@ -257,5 +256,4 @@ public class Jalase2{
         
         
     }
-}
 }
