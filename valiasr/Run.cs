@@ -7,6 +7,5 @@ public class Run
         //Jalase2.jalase2();
         //Jalase3 j3 = new Jalase3();
         //j3.jalase3();
-        int[] myNumbers = { 5, 1, 8, 9 };
     }
 }
