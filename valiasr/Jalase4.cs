@@ -55,14 +55,18 @@ public class Test
     {
         // array
         //تعریف یک آرایه از رشته ها
-        string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+        //string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
         //string[] cars;
-        // string[] cars = new string[4];
+         string[] cars = new string[4];
         // string[] cars = new string[4] {"Volvo", "BMW", "Ford", "Mazda"};
         // string[] cars = new string[] {"Volvo", "BMW", "Ford", "Mazda"};
-
+        //cars[0] = Console.ReadLine();
         Console.WriteLine(cars[0]);
         // Outputs Volvo
+        for (int i = 0; i < cars.Length; i++)
+        {
+            cars[i] = Console.ReadLine();
+        }
         cars[0] = "Opel";
         Console.WriteLine(cars[0]);
         Console.WriteLine(cars.Length);
@@ -82,6 +86,7 @@ public class Test
         // آزایه های دوبعدی
         int[,] numbers = { { 1, 4, 2 }, { 3, 6, 8 } };
         numbers[0, 0] = 5; // Change value to 5
+        numbers[2, 1] = 4;
         Console.WriteLine(numbers[0, 0]); // Outputs 5 instead of 1
 
         foreach (int i in numbers)
@@ -107,12 +112,12 @@ public class Human
     public string firstname;
     public string lastname;
 
-    void work()
+    public void work()
     {
         Console.WriteLine("i'm working");
     }
 
-    void walking()
+    public void walking()
     {
         Console.WriteLine("i'm walking");
     }
