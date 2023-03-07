@@ -2,17 +2,12 @@
 using System.Runtime.CompilerServices;
 using MFM;
 
-
-
-
 public class Run
 {
     // block
     public int i;
     public static void Main(string[] args)
     {
-        
-        
         //Jalase2.one();
         //Jalase2.two();
         // Jalase3.jalase3();
@@ -32,29 +27,24 @@ public class Run
         // Animal bee = new Animal();
         // bee.kind = "bee";
         // class Object
-        // 
         //string input = Console.ReadLine();
-        Vehicle v1 = new Vehicle();
-        Vehicle v2 = new Vehicle("red", "benz", "i5");
+        // Vehicle v1 = new Vehicle();
+        // Vehicle v2 = new Vehicle("red", "benz", "i5");
         // v.color = "red";
         // v.company = "benz";
         // v.model = "i5";
-        v2.run();
-        v2.EcuName = "intel i7";
-        Console.WriteLine(v2.EcuName);
-        // getter setter
-        v2.setEcuName("intel i3");
-        v2.getecuName();
-
-        // in
-        Motor m = new Motor();
-        m.model = "kavir";
-        Motor m1 = new Motor("red","kavir","e3");
-        m.run();
-        Motor.staticMethod();
-        Motor.staticFiled = "static";
-        
-
+        // v2.run();
+        // v2.EcuName = "intel i7";
+        // Console.WriteLine(v2.EcuName);
+        // // getter setter
+        // v2.setEcuName("intel i3");
+        // v2.getecuName();
+        // Motor m = new Motor();
+        // m.model = "kavir";
+        // Motor m1 = new Motor("red","kavir","e3");
+        // m.run();
+        // Motor.staticMethod();
+        // Motor.staticFiled = "static";
     }
 }
 

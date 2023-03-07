@@ -32,19 +32,36 @@ public class Jalase4
         int[] a = { year, month, day };
         return a;
     }
+    
 }
 
-public class Car
-{
-    public int year;
-    public string color;
-    public string compayName;
-    public static int s;
 
-    public static void run()
+
+public class Human
+{
+    
+}
+
+public class Square
+{
+    
+}
+
+public class Laptop
+{
+    public string model;
+    public string companyName;
+    public string color;
+
+    public void run()
     {
-        Console.WriteLine("car is driving");
+        Console.WriteLine(this.model + " from " + this.companyName + " is running.");
     }
-    
-    
+}
+public class Car : Vehicle
+{
+    public void run()
+    {
+        Console.WriteLine("hello");
+    }
 }
