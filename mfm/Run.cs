@@ -34,40 +34,27 @@ public class Run
         // class Object
         // 
         //string input = Console.ReadLine();
-        // Vehicle v1 = new Vehicle();
-        // Vehicle v2 = new Vehicle("red", "benz", "i5");
+        Vehicle v1 = new Vehicle();
+        Vehicle v2 = new Vehicle("red", "benz", "i5");
         // v.color = "red";
         // v.company = "benz";
         // v.model = "i5";
-        // v2.run();
-        // v2.EcuName = "intel i7";
-        // Console.WriteLine(v2.EcuName);
-        // // getter setter
-        // v2.setEcuName("intel i3");
-        // v2.getecuName();
-        //
-        // // in
-        // Motor m = new Motor();
-        // m.model = "kavir";
-        // Motor m1 = new Motor("red","kavir","e3");
-        // m.run();
-        // Motor.staticMethod();
-        // Motor.staticFiled = "static";
-        // Console.WriteLine(namespace1.Jalase6.fib(6));
-        // Console.WriteLine(namespace1.Jalase6.fib2(6));
-        //Vehicle v = new Vehicle("red", "bmw", "i6");
-        // Vehicle v2 = new Vehicle();
-        // v2.color = "blue";
-        // Bicycle b = new Bicycle();
-        // b.color = "orange";
-        // Motor m = new Motor();
-        // m.stop();
-        // Motor.staticMethod();
-        // Animal a = new Animal();
-        // namespace1.Cat persionCat = new namespace1.Cat();
-        // persionCat.sound();
-        namespace1.Animal cat = new namespace1.Cat();
-        cat.sound();
+        v2.run();
+        v2.EcuName = "intel i7";
+        Console.WriteLine(v2.EcuName);
+        // getter setter
+        v2.setEcuName("intel i3");
+        v2.getecuName();
+
+        // in
+        Motor m = new Motor();
+        m.model = "kavir";
+        Motor m1 = new Motor("red","kavir","e3");
+        m.run();
+        Motor.staticMethod();
+        Motor.staticFiled = "static";
+        
+
     }
 }
 
