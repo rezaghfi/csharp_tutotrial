@@ -95,7 +95,7 @@ public class Vehicle
         this.tier = "t";
     }
 
-    public string getecuName()
+    public string getEcuName()
     {
         return this.ecuName;
     }
