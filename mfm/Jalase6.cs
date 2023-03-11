@@ -113,3 +113,11 @@ namespace namespace1
         }
     }
 }
+
+namespace namespace2
+{
+    public struct Test
+    {
+        public int i;
+    }
+}

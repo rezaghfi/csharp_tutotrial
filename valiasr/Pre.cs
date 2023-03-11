@@ -1,102 +1,52 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;  
 
-namespace Valiasr;
+namespace CsharpDestructor {
+  
+    class Person {
 
-public class Pre
-{
+        public Person() {
+            Console.WriteLine("Constructor called.");
+        }
     
+        // destructor
+        ~Person() {
+            Console.WriteLine("Destructor called.");
+        }
+
+        public static void Test(string [] args) {
+
+            //creates object of Person
+            Person p1 = new Person();
+        }
+    } 
 }
 
-class Car 
-{
-    string color;                 // field
-    int maxSpeed;                 // field
-    public void fullThrottle()    // method
-    {
-        Console.WriteLine("The car is going as fast as it can!"); 
-    }
+//static method
 
-    static void s(string[] args)
-    {
-        Car myObj = new Car();
-        myObj.fullThrottle();  // Call the method
-    }
-}
+// namespace define
 
-class Car2
-{
-    public string model;
-    public string color;
-    public int year;
-    public void fullThrottle()
-    {
-        Console.WriteLine("The car is going as fast as it can!"); 
-    }
-}
+// inheritance
 
-// Create a Car class
-class Car3
-{
-    public string model;  // Create a field
+// polymorphism
 
-    // Create a class constructor for the Car class
-    public Car3()
-    {
-        model = "Mustang"; // Set the initial value for model
-    }
-
-    static void s(string[] args)
-    {
-        Car3 Ford = new Car3();  // Create an object of the Car Class (this will call the constructor)
-        Console.WriteLine(Ford.model);  // Print the value of model
-    }
-}
-
-// Outputs "Mustang"
-
-class Car4
-{
-    public string model;
-    public string color;
-    public int year;
-
-    // Create a class constructor with multiple parameters
-    public Car4(string modelName, string modelColor, int modelYear)
-    {
-        model = modelName;
-        color = modelColor;
-        year = modelYear;
-    }
-}
-
-class Car5
-{
-    private string model = "Mustang";
-
-    static void s(string[] args)
-    {
-        Car5 myObj = new Car5();
-        Console.WriteLine(myObj.model);
-        
-    }
-
-    void s2()
-    {
-        this.model = "reza";
-    }
-}
-
-class Car6
-{
-    public string model = "Mustang";
-}
-
-class Program
-{
-    static void s(string[] args)
-    {
-        
-        Car6 myObj = new Car6();
-        Console.WriteLine(myObj.model);
-    }
-}
+public class Animal{  
+    public virtual void eat(){  
+        Console.WriteLine("eating...");  
+    }  
+}  
+public class Dog: Animal  
+{  
+    public override void eat()  
+    {  
+        Console.WriteLine("eating bread...");  
+    }  
+      
+}  
+public class TestPolymorphism  
+{  
+    public static void Test()  
+    {  
+        Animal a= new Dog();  
+        a.eat();  
+    }  
+}  

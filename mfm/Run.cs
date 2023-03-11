@@ -44,7 +44,7 @@ public class Run
         Console.WriteLine(v2.EcuName);
         // getter setter
         v2.setEcuName("intel i3");
-        v2.getecuName();
+        //v2.getecuName();
 
         // in
         Motor m = new Motor();
@@ -52,9 +52,12 @@ public class Run
         Motor m1 = new Motor("red","kavir","e3");
         m.run();
         Motor.staticMethod();
-        Motor.staticFiled = "static";
-        
-
+        Motor.staticFiled = "static"; 
+        // namespace 2
+        namespace2.Test test;
+        test.i = 12;
+        Motor m4;
+        //m4.run();
     }
 }
 
