@@ -34,30 +34,33 @@ public class Run
         // class Object
         // 
         //string input = Console.ReadLine();
-        Vehicle v1 = new Vehicle();
-        Vehicle v2 = new Vehicle("red", "benz", "i5");
+        // Vehicle v1 = new Vehicle();
+        // Vehicle v2 = new Vehicle("red", "benz", "i5");
         // v.color = "red";
         // v.company = "benz";
         // v.model = "i5";
-        v2.run();
-        v2.EcuName = "intel i7";
-        Console.WriteLine(v2.EcuName);
+        // v2.run();
+        // v2.EcuName = "intel i7";
+        // Console.WriteLine(v2.EcuName);
         // getter setter
-        v2.setEcuName("intel i3");
+        //v2.setEcuName("intel i3");
         //v2.getecuName();
 
         // in
-        Motor m = new Motor();
-        m.model = "kavir";
-        Motor m1 = new Motor("red","kavir","e3");
-        m.run();
-        Motor.staticMethod();
-        Motor.staticFiled = "static"; 
-        // namespace 2
-        namespace2.Test test;
-        test.i = 12;
-        Motor m4;
+        // Motor m = new Motor();
+        // m.model = "kavir";
+        // Motor m1 = new Motor("red","kavir","e3");
+        // m.run();
+        // Motor.staticMethod();
+        // Motor.staticFiled = "static"; 
+        // // namespace 2
+        // namespace2.Test test;
+        // test.i = 12;
+        // Motor m4;
         //m4.run();
+
+        jalase8 j = new jalase8();
+        j.find1399th();
     }
 }
 
